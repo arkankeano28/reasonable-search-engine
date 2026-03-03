@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Engine Sederhana</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="gaya.css" />
+  </head>
+
+  <body >
+    <header>
+      <div class="settings-buttons">
+        <button id="musicBtn">▶ Play Music</button>
+        <label>
+          Brightness
+          <input
+            type="range"
+            id="brightnessSlider"
+            min="50"
+            max="150"
+            value="100"
+          />
+        </label>
+      </div>
+    </header>
+    <div id="pageContent">
+      <h1>Search Engine Sederhana</h1>
+
+      <section class="search-bar">
+        <form id="searchForm">
+          <input
+            type="text"
+            id="query"
+            placeholder="Masukkan kata kunci..."
+            required
+          />
+          <button type="submit">Cari Lokal</button>
+
+          <div class="external-search-buttons">
+            <button type="button" id="googleBtn">Google</button>
+            <button type="button" id="wikiBtn">Wikipedia</button>
+          </div>
+        </form>
+      </section>
+
+      <div id="results"></div>
+    </div>
+
+    <audio id="backgroundMusic" src="backsound.mp3" loop></audio>
+
+    <blockquote class="footer">
+      <p>&copy;<span id="year"></span> Search Engine Sederhana. All rights reserved.</p>
+    <script src="scripts.js"></script>
+  </body>
+</html>
