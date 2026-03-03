@@ -2,7 +2,7 @@ body {
   font-family: "Playwrite NZ Basic", cursive;
   margin: 20px;
   /* background: #ffffff; */
-  background-image: url('https://i.pinimg.com/originals/b0/4d/c6/b04dc60949e3e4161f2e43640286ae01.gif');
+  background-image: url('https://i.pinimg.com/originals/f7/19/65/f71965732082901a89adedcde2051bd7.gif');
   background-size:cover;
   color: #000000;
   filter: brightness(100%) saturate(1.2);
@@ -86,3 +86,4 @@ h1 {
   border: 3px solid white;
 
 }
+
